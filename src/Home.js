@@ -10,6 +10,7 @@ import BossInfo from './containers/BossInfo';
 import WorkerInfo from './containers/WorkerInfo';
 import Dashboard from './containers/Dashboard';
 import Chat from './containers/Chat';
+import VegList from './containers/VegList';
 
 class Home extends React.Component {
     constructor(props) {
@@ -27,6 +28,7 @@ class Home extends React.Component {
             <div>
                 <AuthRoute/>
                 <Switch>
+                    <Route path="/veglist" component={VegList}/>
                     <Route path="/bossinfo" component={BossInfo}/>
                     <Route path="/workerinfo" component={WorkerInfo}/>
                     <Route path="/login" component={Login} />
