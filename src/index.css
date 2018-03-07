@@ -1,0 +1,180 @@
+
+/*App*/
+.refresh {
+    line-height: 30px;
+	background: rgb(105, 16, 61);
+	color: #fff;
+	text-align: center;
+	border: 1px solid grgb(105, 16, 61);;
+	border-radius: 0 4px 4px 0;
+	width: 150px;
+	height: 30px;
+	font: 400 18px "微软雅黑";
+    cursor: pointer;
+    margin-top: 25px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.time {
+    display: block;
+    margin: 25px auto;
+    color: #28965f;
+}
+/*App*/
+
+/*Logo*/
+.logo-container {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logImg {
+    border-radius: 50%;
+}
+/*Logo*/
+
+/*Dashboard*/
+.fixed-body {
+    margin: 50px 0;
+}
+.fixed-header.am-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.am-tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+}
+/*Dashboard*/
+
+/*Register*/
+.err-tip {
+    color: red;
+    font: 400 16px simsun;
+}
+/*Register*/
+
+/*Chat*/
+#chat-page{
+    overflow: hidden;
+}
+.stick-footer{
+	z-index:10;
+	position: absolute;
+	bottom: 0;
+    width:100%;
+    border-top: 1px solid #ddd;
+    background: #fff;
+}
+#chat-page .chat-me .am-list-extra{
+	flex-basis:auto;
+}
+#chat-page .chat-me .am-list-content{
+	padding-right: 15px;
+	text-align: right;
+}
+#chat-page .am-grid-icon{
+	display: none;
+}
+#chat-page .am-grid-text{
+	margin-top: 0;
+}
+#chat-page .am-list-item::after {
+    background: none;
+}
+#chat-page .am-list-body::before {
+    background: none;
+}
+#chat-page .am-list-body::after {
+    background: none;
+}
+#chat-page .am-list-body {
+    background: none;
+}
+#chat-page .am-list-item {
+    background: none;
+}
+#chat-page .stick-body {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow-y: auto;
+    bottom: 44px;
+    top: 45px;
+    /*
+    background-image: url('./components/img/hua.jpg');
+    background-size: cover; */
+}
+#chat-page .am-list-content {
+    white-space: normal;
+}
+#chat-page .am-list-item img {
+    width: 40px;
+    height: 40px;
+}
+#chat-page .am-list-item .emojiImg {
+    width: 20px;
+    height: 20px;
+}
+/*Chat*/
+
+/*Bubbly*/
+.bubbly{
+    position: relative;
+    border-radius: 8px;
+    min-width: 180px;
+    min-height: 60px;
+    max-width: 300px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+.bg-green {
+    background: #74a3c5;
+    margin-right: 26px;
+}
+.bg-red {
+    background: #c7938d;
+    margin-left: 26px;
+}
+.bubbly-triangle {
+    position: absolute;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.left-triangle {
+    border-right: 27px solid #c7938d;
+    right: 100%;
+}
+.right-triangle {
+    border-left: 27px solid #74a3c5;
+    left: 100%;
+}
+.bubbly-content {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    line-height: 60px;
+    height: 100%;
+}
+/*Bubbly*/
+
+/*Dashboard*/
+#dashboard .am-tab-bar {
+    height: 45px;
+}
+/*Dashboard*/
